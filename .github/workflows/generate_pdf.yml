@@ -11,30 +11,45 @@ on:
     branches: [ master ]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
+
 jobs:
-  # This workflow contains a single job called "build"
-  build:
-    # The type of runner that the job will run on
+  generate_pdf:
     runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-    - uses: actions/checkout@v2
+      - name: My first step
+        uses: docker://pandoc/latex:2.6
+      - run: pandoc README.md --pdf-engine=xelatex -o resume_master_v1.pdf
+#   my_first_job:
+#     steps:
+#       - name: My first step
+#         uses: docker://gcr.io/cloud-builders/gradle
+#   # This workflow contains a single job called "build"
+#   build:
+#     # The type of runner that the job will run on
+#     runs-on: ubuntu-latest
 
-    # Runs a single command using the runners shell
-    - name: Run a one-line script
-      run: echo Hello, world!
+#     # Steps represent a sequence of tasks that will be executed as part of the job
+#     steps:
+#     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+#     - uses: actions/checkout@v2
 
-    # Runs a set of commands using the runners shell
-    - name: Run a multi-line script
-      run: |
-        echo Add other actions to build,
-        echo test, and deploy your project.
-    # convert md file into pdf
-    - uses: actions/checkout@master
-    - uses: r-lib/actions/setup-pandoc@v1
-      with:
-        pandoc-version: '2.7.3' # The pandoc version to download (if necessary) and use.
-    #- run: cat resume.md | pandoc -t latex -o master_resume_v1.pdf
-    - run: pandoc resume_master_raw.md --pdf-engine=xelatex -o master_resume_v1.pdf
+#     # Runs a single command using the runners shell
+#     - name: Run a one-line script
+#       run: echo Hello, world!
+
+#     # Runs a set of commands using the runners shell
+#     - name: Run a multi-line script
+#       run: |
+#         echo Add other actions to build,
+#         echo test, and deploy your project.
+#     - name: My first step
+#       uses: docker://gcr.io/cloud-builders/gradle
+#     # convert md file into pdf
+# #     - uses: actions/checkout@master
+# #     - uses: r-lib/actions/setup-pandoc@v1
+# #       with:
+# #         pandoc-version: '2.7.3' # The pandoc version to download (if necessary) and use.
+#     #- run: cat resume.md | pandoc -t latex -o master_resume_v1.pdf
+# #     - run: pandoc resume_master_raw.md --pdf-engine=xelatex -o master_resume_v1.pdf
+
+
