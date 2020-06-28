@@ -19,6 +19,13 @@ jobs:
       - name: My first step
         uses: docker://pandoc/latex:2.6
       - run: pandoc README.md --pdf-engine=xelatex -o resume_master_v1.pdf
+  convert_via_pandoc:
+    runs-on: ubuntu-18.04
+    steps:
+      - run: echo "foo" > input.txt  # create an example file
+      - uses: docker://pandoc/core:2.9
+        with:
+          args: README.md --pdf-engine=xelatex -o resume_master_v1.pdf
 #   my_first_job:
 #     steps:
 #       - name: My first step
