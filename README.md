@@ -1,5 +1,11 @@
-Oran Collins
-============
+# Resume-Master
+### automated build of latex resume using github actions 
+```
+by oran collins
+github.com/wisehackermonkey
+oranbusiness@gmail.com
+20200628
+```
 
 # TODO
 - fix pandoc not finding README.md within docker conatiner
