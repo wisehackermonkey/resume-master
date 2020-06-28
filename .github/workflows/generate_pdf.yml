@@ -26,9 +26,9 @@ jobs:
           mkdir output  # create output dir
           # this will also include README.md
           echo "::set-env name=FILELIST::$(printf '"%s" ' *.md)"
-      - uses: docker://pandoc/latex:2.9
+      - uses: xu-cheng/latex-action@v2
         with:
-          args:  ${{ env.workspace }}/README.md --pdf-engine=xelatex -o resume_master_v1.pdf
+          root_file: master_resume.tex
       - uses: actions/upload-artifact@master
         with:
           name: output
