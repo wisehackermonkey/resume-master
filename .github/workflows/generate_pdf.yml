@@ -36,4 +36,5 @@ jobs:
     - uses: r-lib/actions/setup-pandoc@v1
       with:
         pandoc-version: '2.7.3' # The pandoc version to download (if necessary) and use.
-    - run: echo "# Test" | pandoc -o master_resume_v1.pdf
+    #- run: cat resume.md | pandoc -t latex -o master_resume_v1.pdf
+    - run: pandoc README.md --pdf-engine=xelatex -o master_resume_v1.pdf
