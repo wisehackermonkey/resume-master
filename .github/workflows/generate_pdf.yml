@@ -37,4 +37,4 @@ jobs:
       with:
         pandoc-version: '2.7.3' # The pandoc version to download (if necessary) and use.
     #- run: cat resume.md | pandoc -t latex -o master_resume_v1.pdf
-    - run: pandoc README.md --pdf-engine=xelatex -o master_resume_v1.pdf
+    - run: pandoc resume_master_raw.md --pdf-engine=xelatex -o master_resume_v1.pdf
