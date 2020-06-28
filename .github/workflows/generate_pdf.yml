@@ -11,9 +11,9 @@ on:
     branches: [ master ]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
-name: Advanced Usage
+# name: Advanced Usage
 
-on: push
+# on: push
 
 jobs:
   convert_via_pandoc:
@@ -28,7 +28,7 @@ jobs:
           echo "::set-env name=FILELIST::$(printf '"%s" ' *.md)"
       - uses: docker://pandoc/latex:2.9
         with:
-          args:  `{{GITHUB_WORKSPACE}}/README.md` --pdf-engine=xelatex -o resume_master_v1.pdf
+          args:  ${{ env.workspace }}/README.md --pdf-engine=xelatex -o resume_master_v1.pdf
       - uses: actions/upload-artifact@master
         with:
           name: output
