@@ -20,20 +20,19 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v2
-      - run: |
-          echo "Lorem ipsum" > lorem_1.md  # create two example files
-          echo "dolor sit amet" > lorem_2.md
-          mkdir output  # create output dir
-          # this will also include README.md
-          echo "::set-env name=FILELIST::$(printf '"%s" ' *.md)"
+        name: Convert latex to pdf
       - uses: xu-cheng/latex-action@v2
         with:
           root_file: master_resume.tex
-      - uses: actions/upload-artifact@master
+      - name: Commit files (aka safe pdf)
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git commit -m "Add changes" -a
+      - name: Push changes
+        uses: ad-m/github-push-action@master
         with:
-          name: output
-          path: output
-
+          github_token: ${{ secrets.GITHUB_TOKEN }}
 # jobs:
 #   generate_pdf:
 #     runs-on: ubuntu-latest
