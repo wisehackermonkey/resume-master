@@ -9,9 +9,10 @@ oranbusiness@gmail.com
 ![](./Screenshot_1.png)
 
 # TODO
-- fix pandoc not finding README.md within docker conatiner
-   - possible: use ${{ env.GITHUB_WORKSPACE }}
-- migrate to master_resume_v1.md instead of readme.md
+- ~~fix pandoc not finding README.md within docker conatiner~~
+   - ~~possible: use ${{ env.GITHUB_WORKSPACE }}~~
+- ~~migrate to master_resume_v1.md instead of readme.md~~
+- ~~switched to useing .tex file instead of rewriting resume in markdown~~~
 
 # Links 
 - [the github action that finally worked! xu-cheng/latex-action](https://github.com/xu-cheng/latex-action) 
