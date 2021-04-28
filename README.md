@@ -8,6 +8,10 @@ oranbusiness@gmail.com
 ```
 ![](./Screenshot_1.png)
 
+
+# update! now supporting jsonresume!
+#### 20210427
+# [Link JSON resume](https://registry.jsonresume.org/wisehackermonkey)
 # TODO
 - ~~fix pandoc not finding README.md within docker conatiner~~
    - ~~possible: use ${{ env.GITHUB_WORKSPACE }}~~

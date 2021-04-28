@@ -1,0 +1,114 @@
+{
+    "meta": {
+      "theme": "elegant"
+    },
+    "basics": {
+      "name": "Oran C",
+      "label": "Hardstack Developer",
+      "image": "https://avatars.githubusercontent.com/u/29699356?v=4",
+      "summary": "Career opportunities to utilize my growing skills and passion in Software Development, Robotics and Product Design.",
+      "website": "https://www.orancollins.com",
+      "email": "oranbusiness@gmail.com",
+      "location": {
+        "countryCode": "US"
+      },
+      "profiles": [
+        {
+            "network": "LinkedIn",
+            "username": "oran-c-74b938176",
+            "url": "https://www.linkedin.com/in/oran-c-74b938176/"
+          },
+        {
+          "url": "https://github.com/wisehackermonkey",
+          "username": "wisehackermonkey",
+          "network": "github"
+        }
+      ]
+    },
+    "education": [
+      {
+        "startDate": "2016-12-31",
+        "area": "Computer Science",
+        "studyType": "Currently Pursuing",
+        "institution": "Santa Rosa Junior College"
+      }
+    ],
+    "references": [],
+    "skills": [
+      {   
+        "keywords": [
+          "JavaScript | Python | C# | C++ | Arduino | Bash | Ruby/Rails | HTML/CSS",
+          "Node.js | Docker | Linux | GitHub | SQL | MongoDB",
+          "Unity Game Development/ Photoshop/Illustrator/ Product Design/ Circuit Board Design/ Raspberry Pi"
+        ],
+        "level": "",
+        "name": ""
+      },
+      {
+        "keywords": ["Node", "Python", "Ruby", "Arduino C++","Bash", "Ruby/Rails", "HTML/CSS"],
+        "level": "",
+        "name": ""
+      }
+    ],
+    "awards": [
+      {
+        "title": "Defender of the Internet",
+        "awarder": "Fight For The Future"
+      }
+    ],
+    "work": [
+      {
+        "summary": "Successfully made a hardware device field test ready, for a startup farm agtech company. Completed rapid prototyping and quick implementations of algorithms to test on the goats in the field.",
+        "company": "Twisted Fields",
+        "website": "https://www.linkedin.com/company/51586188",
+        "position": "Robotics Prototyping Engineer intern",
+        "startDate": "2020-06-30",
+        "endDate": "2020-09-30",
+        "highlights": [
+          "In 2 weeks, pushed the project forward passed the 90% mark, and made the prototype field testable on live goats",
+          "Wrote new algorithms, which had a direct and meaningful impact on the functionality of how the prototype interacted with the goats",
+          "For important undocumented components, established functional and beautiful documentation, which aided in communication, and made the transition to a new team smooth and effortless"
+        ]
+      },
+      {
+        "company": "Ochs Labs",
+        "summary": "Online Software Support position installing Low Energy Neurofeedback software on customer Windows machines. Built and maintained Windows images and troubleshot installation scripts while providing direct customer phone support.",
+        "website": "https://www.linkedin.com/company/16050889",
+        "position": "Tech Support",
+        "startDate": "2019-11-30",
+        "endDate": "2020-03-31",
+        "highlights": [
+          "Delivered on a special CEO requested project to rapidly prototype and build a Photonic stimulator using 3D printer and hand-built circuit boards. Led two-person team effort to design and build handheld medical device, circuit layout and design.",
+          "Updated and revamped software installation documentation for easier maintenance and accessibility",
+          "Provide in-house IT field support for company’s computers, printers and network"
+        ]
+      },
+      {
+        "company": "Wineglassmarketing",
+        "summary": "Online Software Support position installing Low Energy Neurofeedback software on customer Windows machines. Built and maintained Windows images and troubleshot installation scripts while providing direct customer phone support.",
+        "website": "https://www.linkedin.com/company/16050889",
+        "position": "Tech Support",
+        "startDate": "2019-01-01",
+        "endDate": "2019-01-01",
+        "highlights": [
+          "Delivered on a special CEO requested project to rapidly prototype and build a Photonic stimulator using 3D printer and hand-built circuit boards. Led two-person team effort to design and build handheld medical device, circuit layout and design.",
+          "Updated and revamped software installation documentation for easier maintenance and accessibility",
+          "Provide in-house IT field support for company’s computers, printers and network"
+        ]
+      }
+    ],
+    "interests": [
+      {
+        "name": "Drawing"
+      },
+      {
+        "name": "Silicon Molding"
+      },
+      {
+        "name": "Robotics"
+      },
+      {
+        "name": "Hackathons"
+      }
+    ]
+  }
