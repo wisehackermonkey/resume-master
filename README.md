@@ -32,6 +32,8 @@ resume serve --port 3000 --theme spartan
 # copy stuff to this gist to make the hosted version work
 ### [gist.github.com/wisehackermonkey](https://gist.github.com/wisehackermonkey/91ccf2d65d3ac9cdc68173a642568290)
 
+# Jsonresume schema
+### [Schema — JSON Resume](https://jsonresume.org/schema/)
 
 # update! now supporting jsonresume!
 #### 20210427
