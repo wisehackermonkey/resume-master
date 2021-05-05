@@ -11,20 +11,24 @@ oranbusiness@gmail.com
 ```bash
 npm install -g resume-cli
 npm install  -g jsonresume-theme-spartan
-resume export oran_resume_v1.pdf -t spartan
-resume export oran_resume_v1.html -t spartan
+resume export oran_resume_v1.pdf -t spartan  
+resume export oran_resume_v1.html -t spartan 
 ```
 ### or using non globals
 ```
 npm install resume-cli
 npm install jsonresume-theme-spartan
-./node_modules/.bin/resume export oran_resume_v1.pdf -t spartan
-
+./node_modules/.bin/resume export oran_resume_v1.pdf -t spartan  
 
 or 
 npm run generate
 ```
 
+# Local editing
+### Run local editing server
+```bash
+resume serve --port 3000 --theme spartan  
+```
 # copy stuff to this gist to make the hosted version work
 ### [gist.github.com/wisehackermonkey](https://gist.github.com/wisehackermonkey/91ccf2d65d3ac9cdc68173a642568290)
 
