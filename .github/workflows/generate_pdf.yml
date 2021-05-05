@@ -20,10 +20,11 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v2
-        name: Convert latex to pdf
-      - uses: xu-cheng/latex-action@v2
-        with:
-          root_file: master_resume.tex
+      - name: Generate pdf jsonresume
+        run: |
+          npm install resume-cli
+          npm install jsonresume-theme-spartan
+          ./node_modules/.bin/resume export oran_resume_v1.pdf -t spartan
       - name: Commit files (aka safe pdf)
         run: |
           git config --local user.email "action@github.com"
