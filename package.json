@@ -4,7 +4,7 @@
   "description": "```\r by oran collins\r github.com/wisehackermonkey\r oranbusiness@gmail.com\r 20200628\r ```\r ![](./Screenshot_1.png)",
   "main": "index.js",
   "scripts": {
-    "generate":"./node_modules/.bin/resume export oran_resume_v1.pdf -t spartan",
+    "generate": "./node_modules/.bin/resume export oran_resume_v1.pdf -t spartan",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
