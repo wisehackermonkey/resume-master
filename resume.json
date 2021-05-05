@@ -42,27 +42,27 @@
         "name": "Programming Languages"
       },
       {
-        "keywords": [ "CSS", "Ruby", "Bash", "Ruby/Rails", "SQL", "MongoDB","C#","C++"],
+        "keywords": [ "CSS", "Ruby", "Bash", "Ruby/Rails", "SQL", "MongoDB", "C#", "C++"],
         "level": "Proficient",
         "name": "Programming Languages"
       },
       {
-        "keywords": ["Docker", "Linux Command-line","Flask", "Express", "Git", "Github" ],
+        "keywords": ["Docker", "Linux Command-line", "Flask", "Express", "Git", "Github" ],
         "level": "Expert",
         "name": "Software Tools"
       },
       {
-        "keywords": ["PCB Layout & Design","Electrical Circuit board design", "Rapid Prototyping", "3D Printing", "CAD Modeling/3D Modeling", "Silicon Casting", "Product Design"],
+        "keywords": ["PCB Layout & Design", "Electrical Circuit board design", "Rapid Prototyping", "3D Printing", "CAD Modeling/3D Modeling", "Silicon Casting", "Product Design"],
         "level": "",
         "name": "Hardware Skills"
       },
       {
-        "keywords": [ "Arduino","Raspberry Pi"],
+        "keywords": [ "Arduino", "Raspberry Pi"],
         "level": "Expert",
         "name": "Hardware Tools"
       },
       {
-        "keywords": ["Photoshop","Adobe Illustrator", "Video Editing", "Digital Photography", "Unity Game Development", "Excel", "MS Word", "Google Docs"],
+        "keywords": ["Photoshop", "Adobe Illustrator", "Video Editing", "Digital Photography", "Unity Game Development", "Excel", "MS Word", "Google Docs"],
         "level": "",
         "name": "Bonus"
       }
