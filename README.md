@@ -26,7 +26,7 @@ npm run generate
 ```
 
 # copy stuff to this gist to make the hosted version work
-### [gist.github.com/wisehackermonkey](https://gist.github.com/wisehackermonkey/91ccf2d65d3ac9cdc68173a642568290}
+### [gist.github.com/wisehackermonkey](https://gist.github.com/wisehackermonkey/91ccf2d65d3ac9cdc68173a642568290)
 
 
 # update! now supporting jsonresume!
