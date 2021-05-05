@@ -7,6 +7,26 @@ oranbusiness@gmail.com
 20200628
 ```
 ![](./Screenshot_1.png)
+# Exporting
+```bash
+npm install -g resume-cli
+npm install  -g jsonresume-theme-spartan
+resume export oran_resume_v1.pdf -t spartan
+resume export oran_resume_v1.html -t spartan
+```
+### or using non globals
+```
+npm install resume-cli
+npm install jsonresume-theme-spartan
+./node_modules/.bin/resume export oran_resume_v1.pdf -t spartan
+
+
+or 
+npm run generate
+```
+
+# copy stuff to this gist to make the hosted version work
+### [gist.github.com/wisehackermonkey](https://gist.github.com/wisehackermonkey/91ccf2d65d3ac9cdc68173a642568290}
 
 
 # update! now supporting jsonresume!
@@ -17,7 +37,7 @@ oranbusiness@gmail.com
    - ~~possible: use ${{ env.GITHUB_WORKSPACE }}~~
 - ~~migrate to master_resume_v1.md instead of readme.md~~
 - ~~switched to useing .tex file instead of rewriting resume in markdown~~~
-
+- add someway to update gist
 # Links 
 - [the github action that finally worked! xu-cheng/latex-action](https://github.com/xu-cheng/latex-action) 
 ### outdated
