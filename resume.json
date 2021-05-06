@@ -1,0 +1,211 @@
+{
+    "meta": {
+      "theme": "spartan"
+    },
+    "basics": {
+      "name": "Oran Collins",
+      "label": "Hardstack Developer",
+      "image": "https://i.imgur.com/kDm2Xrg.jpg",
+      "summary": "Career opportunities to utilize my growing skills and passion in Software Development, Robotics and Product Design",
+      "website": "http://www.orancollins.com",
+      "email": "oranbusiness@gmail.com",
+      "location": {
+        "city": "SF North Bay",
+        "countryCode": "US"
+      },
+      "profiles": [
+        {
+            "network": "LinkedIn",
+            "username": "oran-c-74b938176",
+            "url": "https://www.linkedin.com/in/oran-c-74b938176/"
+          },
+        {
+          "url": "https://github.com/wisehackermonkey",
+          "username": "wisehackermonkey",
+          "network": "github"
+        }
+      ]
+    },
+    "education": [
+      {
+        "startDate": "2016-12-31",
+        "endDate": "2023-12-31",
+        "area": "Computer Science",
+        "studyType": "Currently Pursuing",
+        "institution": "Santa Rosa Junior College"
+      }
+    ],
+    "references": [],
+    "skills": [
+      {
+        "keywords": ["JavaScript", "Node.js", "Python", "Linux", "Bash", "Arduino C++", "Bash", "HTML"],
+        "level": "Expert",
+        "name": "Programming Languages"
+      },
+      {
+        "keywords": [ "CSS", "Ruby", "Bash", "Ruby/Rails", "SQL", "MongoDB", "C#", "C++"],
+        "level": "Proficient",
+        "name": "Programming Languages"
+      },
+      {
+        "keywords": ["Docker", "Linux Command-line", "Flask", "Express", "Git", "Github" ],
+        "level": "Expert",
+        "name": "Software Tools"
+      },
+      {
+        "keywords": ["PCB Layout & Design", "Electrical Circuit board design", "Rapid Prototyping", "3D Printing", "CAD Modeling/3D Modeling", "Silicon Casting", "Product Design"],
+        "level": "",
+        "name": "Hardware Skills"
+      },
+      {
+        "keywords": [ "Arduino", "Raspberry Pi"],
+        "level": "Expert",
+        "name": "Hardware Tools"
+      },
+      {
+        "keywords": ["Photoshop", "Adobe Illustrator", "Video Editing", "Digital Photography", "Unity Game Development", "Excel", "MS Word", "Google Docs"],
+        "level": "",
+        "name": "Bonus"
+      }
+    ],
+    "awards": [
+      {
+        "title": "Defender of the Internet",
+        "awarder": "Fight For The Future"
+      },
+      {
+        "title": "Student Park Availability App:  1st place prize College Track",
+        "date": "2017-01-01",
+        "awarder": "North Bay Make-A-Thon",
+        "summary": "Gave students a way to view the number of available parking spots left in the always packed parking garages"
+      },
+      {
+        "title": "Text2buy: 4th place prize",
+        "date": "2017-01-01",
+        "awarder": "SFhacks",
+        "summary": "A Craigslist for 3rd world countries using only SMS texts, where high bandwidth mobile data is not available"
+      },
+      {
+        "title": "Ai SPY: 1st place prize & bonus award",
+        "date": "2021-05-01",
+        "awarder": "SRJC HackJam",
+        "summary": "An Ai Powered Browser Based scavenger hunt https://bit.ly/3nN4eeY"
+      }
+    ],
+    "work": [
+    
+
+      {
+        "summary": "",
+        "company": "Private Contractor",
+        "website": "",
+        "position": "Rapid Prototyping Engineer",
+        "startDate": "2020-12-01",
+        "endDate": "2021-03-01",
+        "highlights": [
+          "Took the project from napkin sketch to a fully functioning prototype",
+          "Project: experimental prototype of a self-leveling RV bed",
+          "Took charge in guiding the client through major technical and design challenges, helped shape a never before seen product",
+          "The prototype was completed successfully, shipped to the client, it worked reliably on the first try, and the client was impressed with the results",
+          "Skills Used: Circuit Design, Arduino programming, 3d printing & modeling, Hardware systems integration, Woodworking, clean, and functional documentation"
+        ]
+      },
+
+      {
+        "summary": "",
+        "company": "Private Contractor",
+        "website": "",
+        "position": "Linux Systems Administrator",
+        "startDate": "2020-12-01",
+        "endDate": "2021-03-01",
+        "highlights": [
+          "Created MountainOS which is a custom operating system image for use with single board computers (raspberry pi), which was deployed at over 90 mountaintop radio communications sites in California",
+          "Improved deployment reliability by creating a working sd card image to standardize the installation process, cutting time & complexity down from multiple hours to just 30 minutes",
+          "Skills Used: Deep knowledge of Linux, Raspberry pi, integrated multiple software tools, Thorough testing, creation of excellent documentation"
+        ]
+      },
+
+      {
+        "summary": "Successfully made a hardware device field test ready, for a startup farm agtech company. Completed rapid prototyping and quick implementations of algorithms to test on the goats in the field.",
+        "company": "Twisted Fields",
+        "website": "https://www.linkedin.com/company/51586188",
+        "position": "Robotics Prototyping Engineering Intern",
+        "startDate": "2020-06-30",
+        "endDate": "2020-09-30",
+        "highlights": [
+          "In 2 weeks, pushed the project forward passed the 90% mark, and made the prototype field testable on live goats",
+          "Wrote new algorithms, which had a direct and meaningful impact on the functionality of how the prototype interacted with the goats",
+          "For important undocumented components, established functional and beautiful documentation, which aided in communication, and made the transition to a new team smooth and effortless"
+        ]
+      },
+
+      {
+        "company": "Ochs Labs",
+        "summary": "Online Software Support position installing Low Energy Neurofeedback software on customer Windows machines. Built and maintained Windows images and troubleshot installation scripts while providing direct customer phone support.",
+        "website": "https://www.linkedin.com/company/16050889",
+        "position": "Tech Support / (Prototyping Engineer)",
+        "startDate": "2019-11-30",
+        "endDate": "2020-03-31",
+        "highlights": [
+          "Delivered on a special CEO requested project to rapidly prototype and build a Photonic stimulator using a 3D printer and hand-built circuit boards. Led two-person team effort to design and build the handheld medical device, circuit layout, and design",
+          "Engineered and built a physical prototype to improve the company's medical device",
+          "Updated and revamped software installation documentation for easier maintenance and accessibility",
+          "Provide in-house IT field support for company’s computers, printers, and network"
+        ]
+      },
+
+      
+      
+      {
+        "company": "Wineglassmarketing",
+        "summary": "Team Lead of Software Developer group that provided web back-end application support. Built internal tools on different platform web back ends using Ruby on Rails for CMS platform migration",
+        "website": "https://www.linkedin.com/company/wineglass-marketing/",
+        "position": "Full Stack Developer",
+        "startDate": "2019-02-01",
+        "endDate": "2019-08-01",
+        "highlights": [
+          "Successful migration of legacy orders, marketing and operations applications to newer integrated CMS platforms. The migration included 500 Rspec tests",
+          "Conversion of the team to utilize GIT commit strategy and regularity; and unit testing using Rspec",
+          "Continual improvements in web app backend production deployment process; reducing failure rate from 1/10 to 1/30 installation failures",
+          "Improved development and deployment efficiency by creating custom Docker images"
+        ]
+      },
+      
+      {
+        "company": "Santa Rosa Junior College",
+        "summary": "Provided field technician support for campus computers, laptops, printers, and networks. Provided end-user training and support for College Faculty. Created procedural checklists to improve the quality and consistency of software installation for all Field technicians",
+        "website": "https://www.linkedin.com/school/santa-rosa-junior-college/",
+        "position": " IT Technician  (part-time)",
+        "startDate": "2017-11-01",
+        "endDate": "2017-12-01",
+        "highlights": [
+          "Assisted with solving difficult installation issues for important and frustrating faculty with their broken pc, and printers",
+          "Fielded computer diagnostics, imaged Dell computers, printers and laptops",
+          "Improved software instillation procedures by creating checklists to ensure proper and consistent software installation"
+        ]
+      },  
+      {
+        "company": "Mobile Kangaroo",
+        "summary": "",
+        "website": "https://www.linkedin.com/company/mobile-kangaroo/",
+        "position": "Computer Repair Technician",
+        "startDate": "2016-11-01",
+        "endDate": "2017-03-01",
+        "highlights": []
+      }
+    ],
+    "interests": [
+      {
+        "name": "Drawing"
+      },
+      {
+        "name": "Silicon Molding"
+      },
+      {
+        "name": "Robotics"
+      },
+      {
+        "name": "Hackathons"
+      }
+    ]
+  }
