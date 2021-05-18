@@ -43,7 +43,7 @@
         "name": "Programming Languages"
       },
       {
-        "keywords": [ "CSS", "Ruby", "Bash", "Ruby/Rails", "SQL", "MongoDB", "C#", "C++"],
+        "keywords": [ "CSS", "Ruby", "Bash", "Ruby/Rails", "SQL", "MongoDB", "C#", "C++", "Rockstar"],
         "level": "Proficient",
         "name": "Programming Languages"
       },
@@ -69,10 +69,6 @@
       }
     ],
     "awards": [
-      {
-        "title": "Defender of the Internet",
-        "awarder": "Fight For The Future"
-      },
       {
         "title": "Student Park Availability App:  1st place prize College Track",
         "date": "2017-01-01",
